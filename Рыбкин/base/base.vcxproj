@@ -81,9 +81,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="polinom.cpp" />
     <ClCompile Include="SamplePolinom.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="polinom.h" />
     <ClInclude Include="list.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -15,12 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="polinom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="list.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SamplePolinom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="polinom.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
